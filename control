@@ -1,0 +1,13 @@
+Source: corevantage-x230
+Section: utils
+Priority: optional
+Maintainer: Jason Goulet-Lipman <jason.gouletlipman@gmail.com>
+Build-Depends: build-essential, cmake, qtbase5-dev, qtdeclarative5-dev
+Homepage: https://github.com/JaGoLi/corevantage
+
+Package: corevantage-x230
+Architecture: amd64
+Provides: corevantage
+Conflicts: corevantage
+Depends: ${shlibs:Depends}, ${misc:Depends}, nvramtool, hicolor-icon-theme
+Description: Graphical user interface to configure coreboot settings for: ThinkPad X230
